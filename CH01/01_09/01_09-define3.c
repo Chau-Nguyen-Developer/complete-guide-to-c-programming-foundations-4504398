@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-#define charout(a) putc(a,stdout)
+// MARCO: a fragment of code given a name
+#define charout(a) putc(a, stdout)
 
 int main()
 {

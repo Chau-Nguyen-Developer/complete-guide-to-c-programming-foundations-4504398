@@ -23,3 +23,8 @@ int main()
 
 	return (0);
 }
+
+//%c, %d, %f: a specific placeholder represents different data types.
+//c: character
+//d: decimal (integer)
+//f: floating point (fraction)  

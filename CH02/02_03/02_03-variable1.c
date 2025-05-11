@@ -12,10 +12,14 @@ int main()
 	c = 0.25;
 	d = 2.5e6;
 
-	printf("a is %c\n",a);
-	printf("b is %d\n",b);
-	printf("c is %f\n",c);
-	printf("d is %f\n",d);
+	printf("a is %c\n", a);
+	// printf("a is \n", a); --> Only print out "a is ".
+	printf("b is %d\n", b);
+	printf("c is %f\n", c);
+	printf("d is %f\n", d);
+	printf("b is %d\n", b);
+	printf("c is %d\n", c);
+	printf("d is %d\n", d);
 
-	return(0);
+	return (0);
 }

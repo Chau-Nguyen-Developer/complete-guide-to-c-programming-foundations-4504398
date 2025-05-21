@@ -3,7 +3,7 @@
 int main()
 {
 	// Float variable x is not initialized.
-	float x = 3.14;
+	float x;
 
 	printf("The value of %f is unknown\n", x);
 

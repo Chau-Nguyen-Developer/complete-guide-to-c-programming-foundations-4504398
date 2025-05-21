@@ -9,5 +9,15 @@ int main()
 	putchar('o');
 	putchar('\n');
 
-	return(0);
+	char c = 'C';
+	char h = 'h';
+	char a = 'a';
+	char u = 'u';
+	printf("%c", c);
+	printf("%c", h);
+	printf("%c", a);
+	printf("%c", u);
+	printf(".<3");
+
+	return (0);
 }

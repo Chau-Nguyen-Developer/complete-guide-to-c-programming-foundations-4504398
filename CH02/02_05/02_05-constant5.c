@@ -7,9 +7,9 @@ void line(int v)
 {
 	int x;
 
-	for( x=0; x<v; x++ )
+	for (x = 0; x < v; x++)
 	{
-		if( x >= MAX )
+		if (x >= MAX)
 			break;
 		putchar('-');
 	}
@@ -20,8 +20,8 @@ int main()
 {
 	int value;
 
-	printf("Enter a positive value less than %d: ",MAX);
-	scanf("%d",&value);
+	printf("Enter a positive value less than %d: ", MAX);
+	scanf("%d", &value);
 	line(value);
-	return(0);
+	return (0);
 }

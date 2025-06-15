@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 char *myname(void)
+// the char* mean this function returns a pointer to a character
+// which is typically used to return a string (of characters) in C
 {
-	char me[] = "Dan Gookin";
+	// char me[] = "Dan Gookin";
+	// Fix:
+	static char me[] = "Chau Nguyen";
 
-	return(me);
+	return (me);
 }
 
 int main()
 {
-	printf("This course's author is %s\n", myname() );
+	printf("My name is %s .\n", myname());
 
-	return(0);
+	return (0);
 }
-
